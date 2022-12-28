@@ -1,8 +1,6 @@
 #!/bin/sh
 git status
 git add .
-git commit -m "test add file $1"
+git commit -m "test add file"
 git push
-echo $1;
-
-
+git config --global credential.helper store
